@@ -1,0 +1,30 @@
+# --- Android / Gradle build output ---
+build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# --- Signing material: NEVER commit ---
+*.jks
+*.keystore
+*.p12
+*.pem
+keystore/
+secrets.properties
+
+# --- IDE ---
+.idea/
+*.iml
+.DS_Store
+
+# --- Test / tooling output ---
+coretest/build/
+test-results/
+reports/
+*.hprof

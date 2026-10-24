@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PearlWallet" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent_dim</item>
+        <item name="colorOnPrimary">#06251F</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:textColorPrimary">@color/pearl</item>
+        <item name="android:textColorSecondary">@color/muted</item>
+    </style>
+
+    <style name="Card" parent="">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">18dp</item>
+    </style>
+
+    <style name="Label">
+        <item name="android:textColor">@color/muted</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.06</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Value">
+        <item name="android:textColor">@color/pearl</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="BtnPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">#06251F</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+
+    <style name="BtnGhost" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/stroke</item>
+        <item name="android:textColor">@color/pearl</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:minHeight">52dp</item>
+    </style>
+</resources>
